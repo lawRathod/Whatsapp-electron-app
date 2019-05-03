@@ -1,0 +1,23 @@
+{
+  "name": "Whatsapp",
+  "version": "0.1.0",
+  "main": "./main.js",
+  "description": "water2",
+  "scripts": {
+    "start": "electron ."
+  },
+  "build": {
+    "linux": {
+      "target": [
+        "dir"
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron-packager": "^13.1.1"
+  },
+  "dependencies": {
+    "electron": "^5.0.0",
+    "electron-installer-debian": "^1.2.0"
+  }
+}
